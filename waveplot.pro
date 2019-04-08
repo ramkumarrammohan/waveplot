@@ -15,7 +15,8 @@ DEFINES += QT_DEPRECATED_WARNINGS
 SOURCES += \
         main.cpp \
     waveform.cpp \
-    strikeline.cpp
+    strikeline.cpp \
+    sawtoothgenerator.cpp
 
 RESOURCES += qml.qrc
 
@@ -32,4 +33,6 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 
 HEADERS += \
     waveform.h \
-    strikeline.h
+    strikeline.h \
+    sawtoothgenerator.h \
+    common.h

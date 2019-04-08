@@ -6,11 +6,16 @@ Window {
     visible: true
     width: 640
     height: 480
-    title: qsTr("Hello World")
+    title: qsTr("waveplot")
 
-    StrikeLine {
+//    StrikeLine {
+//        id: strikeLineId
+//        anchors.fill: parent
+//        anchors.margins: 10
+//    }
+
+    Waveform {
         id: waveformId
         anchors.fill: parent
-        anchors.margins: 10
     }
 }
