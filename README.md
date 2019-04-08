@@ -18,3 +18,6 @@ Logic:
 Note: Here one vertical line of length=5pix has been drawn on every pixels with same 5pix Increment between 1-x pixel.
 So the line seems to be having the jagging effect.
 Is there a way to make this smooth sawtooth wave without jagging effect?
+
+Sample image here:
+![](sawtooth_output.png)
